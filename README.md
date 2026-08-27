@@ -71,8 +71,8 @@ The system is organized in three functional layers around the Teensy 4.1:
 
 ## Photos
 
-![NXP Cup car — isometric view](images/photo1.jpg)
-![NXP Cup car — front sensors and steering](images/photo2.jpg)
+![NXP Cup car — isometric view](images/photo1.png)
+![NXP Cup car — front sensors and steering](images/photo2.png)
 
 ## Repository Contents
 
