@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1122.5197 1122.5197"
+   width="297mm"
+   height="297mm"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="basecalibrage.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.4869345"
+     inkscape:cx="319.3448"
+     inkscape:cy="479.53062"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <desc
+     id="desc1">basecalibrage.DXF - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4">
+    <rect
+       x="190.99078"
+       y="205.36643"
+       width="737.26549"
+       height="538.06005"
+       id="rect10" />
+    <rect
+       x="883.07566"
+       y="244.38605"
+       width="4.1073286"
+       height="388.14256"
+       id="rect9" />
+    <rect
+       x="283.40568"
+       y="295.72766"
+       width="570.91867"
+       height="611.99198"
+       id="rect8" />
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g8">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.571;stroke-linecap:round"
+       d="M 94.370375,925.44397 H 1039.2524"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.571;stroke-linecap:round"
+       d="m 94.370375,169.54097 v 755.903"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.571;stroke-linecap:round"
+       d="M 1039.2524,169.54097 H 94.370375"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.571;stroke-linecap:round"
+       d="m 1039.2524,925.44397 v -755.903"
+       id="path8" />
+    <text
+       xml:space="preserve"
+       id="text8"
+       style="font-size:192px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);shape-padding:2.05349;fill:#000000"
+       transform="translate(55.448939,-4.1073288)"><tspan
+         x="649.67773"
+         y="467.65625"
+         id="tspan1">شيل </tspan><tspan
+         x="528.92773"
+         y="707.65625"
+         id="tspan3"><tspan
+   style="font-size:96px"
+   id="tspan2">عيونك</tspan> </tspan><tspan
+         x="617.99023"
+         y="1075.541"
+         id="tspan5"><tspan
+           dx="0 -114.5625 -57.9375"
+           id="tspan4">عني</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text9"
+       style="fill:#000000;text-orientation:auto;text-align:start;writing-mode:lr-tb;direction:ltr;font-size:96px;white-space:pre;shape-inside:url(#rect9)" />
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="fill:#000000;text-orientation:auto;text-align:start;writing-mode:lr-tb;direction:ltr;font-size:192px;white-space:pre;shape-inside:url(#rect10)" />
+  </g>
+</svg>
