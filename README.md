@@ -9,7 +9,7 @@ The car uses an onboard smart camera to detect track lines, a custom PCB centere
 - Chassis and all mechanical supports designed and modeled in **SolidWorks**.
 - **Ackermann steering mechanism**: an **MG996R servo** mounted centrally on the front axle drives both front wheels via a linkage (biellette), so the wheels trace concentric circles in a turn — no lateral scrub.
 - **Camera mast**: a raised mount holding the Pixy2 camera for a forward, elevated view of the track.
-- **HMI mount**: a dedicated 3D-printed support integrating the OLED display, push buttons, and rotary encoder above the main PCB.
+- **HMI mount**: a dedicated 3D-printed support integrating the OLED display and 2 push buttons.
 - Front bumper design integrates 4 IR sensors symmetrically plus a centered ToF sensor.
 - Parts were 3D printed; most structural parts in PLA.
 
@@ -33,7 +33,6 @@ The system is organized in three functional layers around the Teensy 4.1:
 
 - 0.96" OLED display — shows live PID gains and system state
 - 2 push buttons — mode selection and race start
-- Rotary encoder (KY-040) — on-the-fly PID gain tuning, no reprogramming needed
 
 ### Components Summary
 
@@ -46,28 +45,26 @@ The system is organized in three functional layers around the Teensy 4.1:
 | Steering servo | MG996R | Wheel steering | PWM |
 | Drive motor | Brushed DC motor | Propulsion | PWM + H-bridge |
 | Display | 0.96" OLED | Status display | I²C |
-| Buttons | Push button × 2 | Mode selection | GPIO |
-| Encoder | KY-040 rotary encoder | PID tuning | GPIO |
+| Buttons | Push button × 2 | Mode selection/Race start | GPIO |
 | Wheel encoders | Quadrature, 408 CPR | Speed/position feedback | GPIO (interrupt) |
-| Power source | 2S LiPo (7.4 V) | Energy source | — |
+| Power source | 3S LiPo (12.6 V) | Energy source | — |
 
 ### Pinout (Teensy 4.1)
 
 | Pin | Peripheral | Signal | Interface |
 |---|---|---|---|
-| 0 | Pixy2 Camera | SPI RX (MISO) | SPI0 |
-| 1 | Pixy2 Camera | SPI TX (MOSI) | SPI0 |
-| 2 | Pixy2 Camera | SPI SCK | SPI0 |
+| 12 | Pixy2 Camera | SPI RX (MISO) | SPI0 |
+| 11 | Pixy2 Camera | SPI TX (MOSI) | SPI0 |
+| 13 | Pixy2 Camera | SPI SCK | SPI0 |
 | 10 | Pixy2 Camera | SPI CS | SPI0 |
 | 18 | VL53L0X / OLED | I²C SDA | I²C0 |
 | 19 | VL53L0X / OLED | I²C SCL | I²C0 |
-| 3 | MG996R Servo | PWM | PWM |
-| 4 | DC Motor | PWM (speed) | PWM |
-| 5 | H-bridge | DIR | GPIO |
+| 17 | MG996R Servo | PWM | PWM |
+| 6-7-22-23 | IBTs | PWM (speed) | PWM |
 | 14–17 | IR sensors 1–4 | Start line | GPIO (pull-up) |
-| 20–22 | Rotary encoder | CLK / DT / SW | GPIO (interrupt) |
-| 23 | Mode button | SW | GPIO |
-| 24 | Start button | SW | GPIO |
+| 2-3-4-5 | Rotary encoder | CH A/B | GPIO (interrupt) |
+| 8 | Mode button | SW | GPIO |
+| 9 | Start button | SW | GPIO |
 
 ## Photos
 
